@@ -59,12 +59,12 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		67CC2FB4673376D1520D5B37 /* Pods-testSpecs_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testSpecs_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testSpecs_Example/Pods-testSpecs_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6B5A0074B8FC16C36D683DB1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6B5A0074B8FC16C36D683DB1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8FA2236E091643B94AB9CE8C /* Pods_testSpecs_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testSpecs_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		91821B6756D7DE92FD946ABA /* testSpecs.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = testSpecs.podspec; path = ../testSpecs.podspec; sourceTree = "<group>"; };
+		91821B6756D7DE92FD946ABA /* testSpecs.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = testSpecs.podspec; path = ../testSpecs.podspec; sourceTree = "<group>"; };
 		A508FA39DA2BA8FE20B0C578 /* Pods-testSpecs_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testSpecs_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-testSpecs_Example/Pods-testSpecs_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EEC8CA3C654A9C8D054B4524 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EEC8CA3C654A9C8D054B4524 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +248,7 @@
 				ORGANIZATIONNAME = iceluo;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						LastSwiftMigration = 0820;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -558,6 +559,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testSpecs_Example.app/testSpecs_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -578,6 +580,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testSpecs_Example.app/testSpecs_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
